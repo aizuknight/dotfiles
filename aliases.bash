@@ -1,4 +1,4 @@
-if command -v kitten >/dev/null 2>&1; then
+if command -v kitten >/dev/null 2>&1 && [ -n "$KITTY_WINDOW_ID" ]; then
   alias icat="kitten icat"
   alias ssh="kitten ssh"
 fi
