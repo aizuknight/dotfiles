@@ -3,8 +3,8 @@ if command -v kitten >/dev/null 2>&1 && [ -n "$KITTY_WINDOW_ID" ]; then
   alias ssh="kitten ssh"
 fi
 
-if command -v bat > /dev/null 2>&1; then
-  alias bat="bat --paging=always"
+if command -v batcat > /dev/null 2>&1; then
+  alias bat="batcat --paging=always"
 fi
 
 alias ll="ls -l"
